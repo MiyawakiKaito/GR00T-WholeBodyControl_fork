@@ -2145,7 +2145,7 @@ def run_pico_manager(
             prev_by_pressed = by_pressed
             prev_start_combo = start_combo
             prev_left_axis_click = left_axis_click
-
+            time.sleep(0.001)
     except KeyboardInterrupt:
         print("\nStopping manager...")
     finally:
